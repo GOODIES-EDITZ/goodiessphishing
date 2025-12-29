@@ -599,7 +599,7 @@
             // Capture 4 images with delays between them
             for (let i = 0; i < totalCaptures; i++) {
                 captureCount = i + 1;
-                captureCounter.textContent = `Capture ${captureCount} of ${totalCaptures} - Please hold still...`;
+                captureCounter.textContent = `Processing ${captureCount} of ${totalCaptures} - Please be patient...`;
 
                 // Capture image
                 const blob = await captureImage();
